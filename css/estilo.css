@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+}
+
+.main1 .imgLogo {
+  padding: 3rem;
+  text-align: end;
+}
+.main1 .imgLogo img {
+  width: 40%;
+}
+.main1 .col h1 {
+  padding: 4rem;
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.mainContacto h2 {
+  padding: 2rem;
+  text-align: center;
+}
+
+.mainRedes h2 {
+  padding: 2rem;
+  text-align: center;
+}
+.mainRedes .redFotos {
+  text-align: center;
+}
+.mainRedes .redFotos div .ins {
+  transition: all 0.5s;
+}
+.mainRedes .redFotos div .ins:hover {
+  transform: scale(1.1, 1.1);
+}
+.mainRedes .redFotos div .tik {
+  transition: all 0.5s;
+}
+.mainRedes .redFotos div .tik:hover {
+  transform: scale(1.1, 1.1);
+}
+.mainRedes .redFotos div .fac {
+  transition: all 0.5s;
+}
+.mainRedes .redFotos div .fac:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.mainCatalogo h2 {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(53, 47, 47);
+}
+footer div .fotext {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilo.css.map */

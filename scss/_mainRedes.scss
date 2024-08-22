@@ -1,0 +1,34 @@
+.mainRedes{
+    
+    h2{
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .redFotos{
+        text-align: center;
+        div{
+            .ins{
+                transition: all 0.5s;
+                
+            }
+            .ins:hover{
+                transform: scale(1.1,1.1);
+                 
+            }
+            .tik{
+                transition: all 0.5s;
+            }
+            .tik:hover{
+                transform: scale(1.1,1.1);
+                
+            }
+            .fac{
+                transition: all 0.5s;
+            }
+            .fac:hover{
+                transform: scale(1.1,1.1);
+            }
+        }
+    }
+}

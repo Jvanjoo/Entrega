@@ -1,0 +1,15 @@
+footer{
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(53, 47, 47);
+    
+    div{
+        .fotext{
+            color:$bg-claro;
+            padding: 10px;
+            text-align: center;
+        }
+    }
+}
