@@ -1,10 +1,15 @@
 .mainInfo{
-    .imgLogo{
-        padding: 3rem;
-        text-align: end;
-        img{
-            width: 5%;
-        }
+    h2{
+        padding: 2rem;
+        text-align: center;
+    }
+    section{
+       display: flex;
+       column-gap: 10%;
         
     }
+    .imgInfo{
+         width: 100%;
+    
+        }
 }
